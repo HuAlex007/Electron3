@@ -5,7 +5,7 @@ grunt.config.init({
     pkg: grunt.file.readJSON('gruntPackage.json'),
     'create-windows-installer': {
         x64:{
-            version:'3.0.1',
+            version:'3.0.2',
             authors:'AlexHu',
             projectUrl:'',
             appDirectory:'./project/Electron3-win32-x64',//要打包的输入目录
