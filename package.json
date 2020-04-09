@@ -1,21 +1,22 @@
 {
   "name": "Electron3",
-  "version": "3.0.3",
+  "version": "3.0.0",
   "license": "ISC",
   "description": "My Electron3 description",
   "author": "AlexHu",
   "productName": "Electron3",
   "main": "main.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "electron-builder install-app-deps",
     "start": "npm install && electron .",
     "pack": "electron-builder --dir",
     "dist": "electron-builder"
   },
-  "electron-builder": {
+  "build": {
     "win": {
       "target": "squirrel",
-      "icon": "build/win.ico"
+      "icon": "build/icon.ico"
     }
   },
   "repository": {
@@ -34,7 +35,6 @@
   "dependencies": {
     "electron-builder-squirrel-windows": "^22.5.1",
     "electron-log": "^4.1.1",
-    "electron-webpack-quick-start": "0.0.7",
     "update-electron-app": "^1.5.0"
   }
 }
