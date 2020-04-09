@@ -43,10 +43,9 @@ app.on('activate', () => {
 
 //alex hu================================================
 //require('update-electron-app')()
-const server = "https://test-electron2.now.sh"
+const server = "https://electron3.now.sh"
 const feed = `${server}/update/${process.platform}/${app.getVersion()}`
 autoUpdater.setFeedURL(feed)
-//https://test-electron2.now.sh//update/win32/1.0.8
 //JavaScript
 //每分钟检查一次
 setInterval(() => {
