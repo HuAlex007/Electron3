@@ -1,0 +1,8 @@
+{
+  "name": "Electron3",
+  "version": "3.0.0",
+  "devDependencies": {
+    "grunt": "^1.2.0",
+    "grunt-electron-installer": "^2.1.0"    
+  }
+}
